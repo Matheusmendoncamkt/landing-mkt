@@ -9,11 +9,17 @@ export default function MarketingInboundLanding() {
       {/* Header */}
       <header className="bg-white/80 backdrop-blur-sm border-b border-green-200 sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-          <div className="flex justify-between items-center">
-            <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-to-r from-green-800 to-green-600 rounded-lg flex items-center justify-center">
-                <TrendingUp className="w-5 h-5 text-white" />
-              </div>
+         <div className="flex items-center space-x-2">
+  <Image
+    src="/logo"
+    alt="Logo Matheus Mendonca MKT"
+    width={32}
+    height={32}
+    className="rounded-lg object-contain"
+  />
+  <span className="text-xl font-bold text-green-900">Matheus Mendonca MKT</span>
+</div>
+
               <span className="text-xl font-bold text-green-900">Matheus Mendonca MKT</span>
             </div>
             <button className="bg-gradient-to-r from-green-800 to-green-600 text-white px-6 py-2 rounded-full hover:shadow-lg transition-all duration-300 hover:scale-105">
