@@ -1,6 +1,6 @@
 "use client"
 
-import { Check, Target, TrendingUp, Users, Zap, ArrowRight, Instagram, Globe } from "lucide-react"
+import { Check, Target, Users, Zap, ArrowRight, Instagram, Globe } from "lucide-react"
 
 export default function MarketingInboundLanding() {
   const whatsappLink = "https://wa.me/5585999078920?text=Vim%20atrav%C3%A9s%20do%20seu%20site"
@@ -65,7 +65,137 @@ export default function MarketingInboundLanding() {
         </div>
       </section>
 
-      {/* Outras seções permanecem iguais */}
+      {/* O que é Marketing Inbound */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-green-900 mb-4">
+              O que é Marketing Inbound?
+            </h2>
+            <p className="text-xl text-green-700 max-w-3xl mx-auto">
+              Marketing Inbound é uma metodologia que atrai clientes através de conteúdo relevante e experiências personalizadas, 
+              ao invés de interromper com publicidade tradicional. É sobre criar valor, construir confiança e transformar visitantes em clientes.
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="text-center p-6 rounded-2xl bg-gradient-to-br from-green-50 to-emerald-50 hover:shadow-lg transition-all duration-300">
+              <div className="w-16 h-16 bg-gradient-to-r from-green-800 to-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Target className="w-8 h-8 text-white" />
+              </div>
+              <h3 className="text-xl font-semibold text-green-900 mb-2">Atrair</h3>
+              <p className="text-green-700">
+                Criamos conteúdo relevante que atrai seus clientes ideais através de SEO, 
+                redes sociais e marketing de conteúdo.
+              </p>
+            </div>
+            
+            <div className="text-center p-6 rounded-2xl bg-gradient-to-br from-emerald-50 to-teal-50 hover:shadow-lg transition-all duration-300">
+              <div className="w-16 h-16 bg-gradient-to-r from-emerald-700 to-teal-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Users className="w-8 h-8 text-white" />
+              </div>
+              <h3 className="text-xl font-semibold text-green-900 mb-2">Engajar</h3>
+              <p className="text-green-700">
+                Desenvolvemos relacionamentos através de conteúdo personalizado, 
+                email marketing e interações nas redes sociais.
+              </p>
+            </div>
+            
+            <div className="text-center p-6 rounded-2xl bg-gradient-to-br from-teal-50 to-green-50 hover:shadow-lg transition-all duration-300">
+              <div className="w-16 h-16 bg-gradient-to-r from-teal-600 to-green-700 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Zap className="w-8 h-8 text-white" />
+              </div>
+              <h3 className="text-xl font-semibold text-green-900 mb-2">Converter</h3>
+              <p className="text-green-700">
+                Transformamos visitantes em leads e leads em clientes através de 
+                estratégias de conversão otimizadas.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Nossos Serviços */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-green-50 to-emerald-50">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-green-900 mb-4">
+              Nossos Serviços
+            </h2>
+            <p className="text-xl text-green-700">
+              Soluções completas para acelerar o crescimento do seu negócio
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-green-100">
+              <div className="flex items-center mb-6">
+                <Instagram className="w-8 h-8 text-green-700 mr-3" />
+                <h3 className="text-2xl font-bold text-green-900">Marketing Inbound + Social Media</h3>
+              </div>
+              <ul className="space-y-3 mb-6">
+                <li className="flex items-center">
+                  <Check className="w-5 h-5 text-green-600 mr-3" />
+                  <span className="text-green-800">Estratégia completa de Marketing Inbound</span>
+                </li>
+                <li className="flex items-center">
+                  <Check className="w-5 h-5 text-green-600 mr-3" />
+                  <span className="text-green-800">Gestão profissional do Instagram</span>
+                </li>
+                <li className="flex items-center">
+                  <Check className="w-5 h-5 text-green-600 mr-3" />
+                  <span className="text-green-800">Criação de conteúdo para Threads</span>
+                </li>
+                <li className="flex items-center">
+                  <Check className="w-5 h-5 text-green-600 mr-3" />
+                  <span className="text-green-800">Análise e otimização de performance</span>
+                </li>
+                <li className="flex items-center">
+                  <Check className="w-5 h-5 text-green-600 mr-3" />
+                  <span className="text-green-800">Relatórios mensais detalhados</span>
+                </li>
+              </ul>
+              <div className="text-center">
+                <div className="text-3xl font-bold text-green-900 mb-2">R$ 1.200,00</div>
+                <div className="text-green-700">por mês</div>
+              </div>
+            </div>
+            
+            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-green-100">
+              <div className="flex items-center mb-6">
+                <Globe className="w-8 h-8 text-green-700 mr-3" />
+                <h3 className="text-2xl font-bold text-green-900">Gestão de Tráfego Pago</h3>
+              </div>
+              <ul className="space-y-3 mb-6">
+                <li className="flex items-center">
+                  <Check className="w-5 h-5 text-green-600 mr-3" />
+                  <span className="text-green-800">Campanhas no Meta Ads (Facebook/Instagram)</span>
+                </li>
+                <li className="flex items-center">
+                  <Check className="w-5 h-5 text-green-600 mr-3" />
+                  <span className="text-green-800">Campanhas no Google Ads</span>
+                </li>
+                <li className="flex items-center">
+                  <Check className="w-5 h-5 text-green-600 mr-3" />
+                  <span className="text-green-800">Otimização contínua de campanhas</span>
+                </li>
+                <li className="flex items-center">
+                  <Check className="w-5 h-5 text-green-600 mr-3" />
+                  <span className="text-green-800">Segmentação avançada de público</span>
+                </li>
+                <li className="flex items-center">
+                  <Check className="w-5 h-5 text-green-600 mr-3" />
+                  <span className="text-green-800">Acompanhamento de ROI em tempo real</span>
+                </li>
+              </ul>
+              <div className="text-center">
+                <div className="text-lg text-green-700 mb-2">Valor sob consulta</div>
+                <div className="text-sm text-green-600">+ investimento em mídia</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Oferta Especial */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-green-800 to-green-600">
@@ -150,7 +280,22 @@ export default function MarketingInboundLanding() {
         </div>
       </section>
 
-      {/* Footer permanece igual */}
+      {/* Footer */}
+      <footer className="bg-green-900 text-white py-8 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto text-center">
+          <div className="flex items-center justify-center space-x-2 mb-4">
+            <img
+              src="/logo.jpg"
+              alt="Logo Matheus Mendonca MKT"
+              className="w-8 h-8 object-contain rounded-lg"
+            />
+            <span className="text-xl font-bold">Matheus Mendonca MKT</span>
+          </div>
+          <p className="text-green-300">
+            © 2024 Matheus Mendonca MKT. Todos os direitos reservados.
+          </p>
+        </div>
+      </footer>
     </div>
   )
 }
