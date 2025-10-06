@@ -1,4 +1,5 @@
 "use client"
+import Image from "next/image";
 
 import { Check, Target, TrendingUp, Users, Zap, ArrowRight, Instagram, Globe } from "lucide-react"
 
