@@ -145,11 +145,11 @@ export default function MarketingInboundLanding() {
                 </li>
                 <li className="flex items-center">
                   <Check className="w-5 h-5 text-[#315B83] mr-3" />
-                  <span className="text-[#31465C]">Gestão profissional do Instagram</span>
+                  <span className="text-[#31465C]">Gestão profissional de Redes Sociais</span>
                 </li>
                 <li className="flex items-center">
                   <Check className="w-5 h-5 text-[#315B83] mr-3" />
-                  <span className="text-[#31465C]">Criação de conteúdo para Threads</span>
+                  <span className="text-[#31465C]">Criação de site/landing page</span>
                 </li>
                 <li className="flex items-center">
                   <Check className="w-5 h-5 text-[#315B83] mr-3" />
