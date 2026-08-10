@@ -13,7 +13,7 @@ export default function MarketingInboundLanding() {
           <div className="flex justify-between items-center">
             <div className="flex items-center">
               <img
-                src="/logo.jpg"
+                src="/logo.png"
                 alt="Logo Mendonça MKT | Assessoria de Marketing Digital"
                 className="w-40 sm:w-52 h-12 object-cover object-center"
               />
@@ -294,7 +294,7 @@ export default function MarketingInboundLanding() {
         <div className="max-w-7xl mx-auto text-center">
           <div className="flex items-center justify-center mb-4">
             <img
-              src="/logo.jpg"
+              src="/logo.png"
               alt="Logo Mendonça MKT | Assessoria de Marketing Digital"
               className="w-64 h-20 object-cover object-center"
             />
