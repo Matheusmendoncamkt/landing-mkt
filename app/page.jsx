@@ -161,7 +161,7 @@ export default function MarketingInboundLanding() {
                 </li>
               </ul>
               <div className="text-center">
-                <div className="text-3xl font-bold text-[#0A1930] mb-2">R$ 1.200,00</div>
+                <div className="text-3xl font-bold text-[#0A1930] mb-2">R$ 2.700,00</div>
                 <div className="text-[#52657A]">por mês</div>
               </div>
             </div>
@@ -194,7 +194,7 @@ export default function MarketingInboundLanding() {
                 </li>
               </ul>
               <div className="text-center">
-                <div className="text-lg text-[#52657A] mb-2">Valor sob consulta</div>
+                <div className="text-lg text-[#52657A] mb-2">R$ 300,00</div>
                 <div className="text-sm text-[#315B83]">+ investimento em mídia</div>
               </div>
             </div>
@@ -209,7 +209,7 @@ export default function MarketingInboundLanding() {
             OFERTA ESPECIAL DE LANÇAMENTO
           </div>
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Condição Especial de Fechamento
+            Válida até o final de 2026
           </h2>
           <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-8 mb-8 shadow-2xl">
             <div className="grid md:grid-cols-2 gap-8 items-center">
