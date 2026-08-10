@@ -194,7 +194,7 @@ export default function MarketingInboundLanding() {
                 </li>
               </ul>
               <div className="text-center">
-                <div className="text-lg text-[#52657A] mb-2">R$ 300,00</div>
+                <div className="text-3xl font-bold text-[#0A1930] mb-2">R$ 300,00</div>
                 <div className="text-sm text-[#315B83]">+ investimento em mídia</div>
               </div>
             </div>
